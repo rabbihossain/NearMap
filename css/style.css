@@ -1,0 +1,43 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map_canvas { height: 760px;width:50%;margin:-15px;}
+#map_canvas_detail { height: 760px;width:50%;margin:-15px;}
+#home div.ui-content a {
+    text-align: center;
+    width: 96%;
+    text-decoration: none;
+}
+
+.place-icon-container {
+    float: left;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.rating_bar {
+  width: 120px;
+  margin-top:8px;
+  background: url(../img/empty-star.gif) 0 0 repeat-x;
+}
+
+.rating_bar div {
+  height: 30px;
+  background: url(../img/filled-star.gif) 0 0 repeat-x;
+}
+
+@media screen and (min-width:770px){
+    ul.ui-listview {
+        width:50%;
+        float:left;
+    }
+    #map_canvas { width:50%; float:right;}
+    #map_canvas_detail { width:50%; float:right;}
+    #home-link-container{margin:auto;}
+   
+}
+@media screen and (max-width:768px){
+    #map_canvas { width:100%;  margin-top:30px;margin-left:0px}
+    #map_canvas_detail { width:100%; margin-top:30px;margin-left:0px; height:300px}
+    #home div.ui-content a {margin:0px;}
+}

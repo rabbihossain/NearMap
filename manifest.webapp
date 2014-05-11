@@ -1,0 +1,28 @@
+{
+  "version": "1.0.1",
+  "name": "NearMap",
+  "launch_path": "/index.html",
+  "description": "NearMap is a location based mobile application. It helps you to find important locations near you.",
+  "icons": {
+    "24": "/img/i24.png",
+	"32": "/img/i32.png",
+	"48": "/img/i48.png",
+	"64": "/img/i64.png",
+	"128": "/img/i128.png",
+	"256": "/img/i256.png"
+  },
+  "developer": {
+    "name": "Rabbi Hossain",
+    "url": "http://2hr.me/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "chrome": { "navigation": true },
+  "permissions": {
+    "geolocation": {
+      "description": "Marking out user location"
+    }
+  }
+}

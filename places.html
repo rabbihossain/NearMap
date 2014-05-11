@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>NearMap</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/jqm.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jqm.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
+    <script type="text/javascript" src="js/ineeda.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <div data-role="page" id="places-page" data-add-back-btn="true" data-theme="d">
+          <div data-role="header" data-position="fixed"><h1>Places</h1><a href="index.html" data-theme="a" class="ui-btn-right">Home</a></div>
+          <div data-role="content">
+              <ul id="places-list" data-role="listview" data-theme="c" class="ui-listview"></ul>
+              <div id="map_canvas" style="visibility:hidden; width:0px; height:0px;"></div>
+          </div>
+      </div>
+  </body>
+</html>
